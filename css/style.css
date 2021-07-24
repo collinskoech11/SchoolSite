@@ -61,6 +61,9 @@ section{
     height:100%;
     display:flex;
 }
+.topnavhead .buttons .active{
+    border-bottom:4px solid yellow;
+}
 .topnavhead .buttons button{
     width:80px;
     border:none;
@@ -133,4 +136,25 @@ section{
 			0% 100%
 		);
 	}
+}
+
+.col-container{
+    width:70%;
+    display:flex;
+    margin-left:15%;
+    margin-right:15%;
+    margin-top:-100px;
+}
+.col-container .st{
+    background-color:rgb(6, 1, 82);
+}
+.col-container .nd{
+    background-color:yellow;
+}
+.col-container .rd{
+    background-color:rgb(6, 1, 82);
+}
+.col-container .col{
+    width:33%;
+    height:300px;
 }

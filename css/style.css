@@ -380,7 +380,6 @@ section{
 .principles-container .principles-main{
     width:50%;
     height:100vh;
-    border:1px solid blue;
     margin-right: -20%;
     margin-top:-100px;
     z-index: 1000;
@@ -388,7 +387,6 @@ section{
 .principles-container .principles-sub{
     width:80%;
     height:100vh;
-    border:1px solid red;
     background-image:url(../img/princ.jpg);
     background-size:cover;
     background-position:center;
@@ -396,9 +394,16 @@ section{
 .principles-container .principles-main .principles-main-main{
     display:block;
     padding:50px;
+    height:33vh;
+    border:1px solid red;
 }
 .principles-container .principles-main .principles-main-main h1{
     color:rgb(6, 1, 82);
     font-size:3.5em;
     padding-bottom:30px;
+}
+.principles-container .principles-main .principles-main-sub{
+    height:33vh;
+    display:flex;
+    border:1px solid red;
 }

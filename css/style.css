@@ -289,6 +289,8 @@ section{
 .main-motto-con .sub-img .sub-img-sub .sub{
     width:50%;
     height:100%;
+    color:rgb(6, 1, 82);
+    font-weight:bold;
 }
 .main-motto-con .sub-img .sub-img-sub .bg-1{
     background-image: url(https://source.unsplash.com/1000x1000/?book);
@@ -300,7 +302,18 @@ section{
 }
 .main-motto-con .sub-img .sub-img-sub .text-1{
     background-color:yellow;
+    padding: 50px;
 }
 .main-motto-con .sub-img .sub-img-sub .text-2{
-    background-color:teal;
+    background-color:lightskyblue;
+    padding:50px;
+}
+.teaching-container{
+    width:100%;
+    height:86vh;
+    background-image:url(../img/bg-blue.jpg);
+    background-size:cover;
+    background-position:center;
+    text-align:center;
+    padding-top:100px;
 }

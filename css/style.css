@@ -380,7 +380,7 @@ section{
 .principles-container .principles-main{
     width:50%;
     height:100vh;
-    margin-right: -20%;
+    margin-right: -10%;
     margin-top:-100px;
     z-index: 1000;
 }
@@ -394,8 +394,7 @@ section{
 .principles-container .principles-main .principles-main-main{
     display:block;
     padding:50px;
-    height:33vh;
-    border:1px solid red;
+    height:30vh;
 }
 .principles-container .principles-main .principles-main-main h1{
     color:rgb(6, 1, 82);
@@ -403,7 +402,25 @@ section{
     padding-bottom:30px;
 }
 .principles-container .principles-main .principles-main-sub{
-    height:33vh;
+    height:35vh;
     display:flex;
-    border:1px solid red;
+}
+.principles-container .principles-main .principles-main-sub .sub-con{
+    width:50%;
+    height:100%;
+    padding:30px;
+    
+}
+.principles-container .principles-main .principles-main-sub .sub-con img{
+    margin:auto;
+    width:40px;
+    height:40px;
+}
+.principles-container .principles-main .principles-main-sub .sub-con h2{
+    font-size:1.3em;
+    color:rgb(6, 1, 82);
+    padding-bottom:30px;
+}
+.principles-container .principles-main .principles-main-sub .sub-con h4{
+    text-shadow: #fff 15px 0 10px;
 }

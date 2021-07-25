@@ -109,7 +109,14 @@ section{
 	color: rgb(6, 1, 82);
 	animation: animate 4s ease-in-out infinite;
 }
-
+.content h1:nth-child(2) .yellow{
+    color: yellow;
+	animation: animate 4s ease-in-out infinite;
+}
+.content h1:nth-child(2) .white{
+    color: #fff;
+	animation: animate 4s ease-in-out infinite;
+}
 @keyframes animate {
 	0%,
 	100% {
@@ -195,7 +202,7 @@ section{
     color:rgb(6, 1, 82);
 }
 .best-container .best-text .best-text-text{
-   
+    font-family: 'Lato', sans-serif;
 }
 .best-container .best-img{
     width:50%;

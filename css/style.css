@@ -333,13 +333,25 @@ section{
     margin:auto;
     margin-top:-300px !important;
     flex-wrap: wrap;
+    margin-bottom:100px;
 }
 .subjects-container .subject{
     width:16%;
     height:200px;
     background-color:#fff;
     text-align:center;
-    padding-top:80px;
+    padding-top:90px;
+}
+.subjects-container .subject img{
+    margin:auto;
+    width:75px;
+    height:75px;
+    transition:2s smooth;
+}
+.subjects-container .subject:hover img{
+    width:50px;
+    height:50px;
+    transition:2s smooth;
 }
 .subjects-container .span-1{
     background-color: lightskyblue;
@@ -358,4 +370,35 @@ section{
 }
 .subjects-container .span-6{
     background-color: green;
+}
+
+.principles-container{
+    display:flex;
+    padding:70px;
+    padding-right:0;
+}
+.principles-container .principles-main{
+    width:50%;
+    height:100vh;
+    border:1px solid blue;
+    margin-right: -20%;
+    margin-top:-100px;
+    z-index: 1000;
+}
+.principles-container .principles-sub{
+    width:80%;
+    height:100vh;
+    border:1px solid red;
+    background-image:url(../img/princ.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.principles-container .principles-main .principles-main-main{
+    display:block;
+    padding:50px;
+}
+.principles-container .principles-main .principles-main-main h1{
+    color:rgb(6, 1, 82);
+    font-size:3.5em;
+    padding-bottom:30px;
 }

@@ -316,4 +316,46 @@ section{
     background-position:center;
     text-align:center;
     padding-top:100px;
+    padding-left:30%;
+    padding-right:30%;
+    color: #fff;
+}
+.teaching-container h1{
+    font-size:3em;
+}
+.teaching-container h4{
+    font-size:1em;
+}
+.subjects-container{
+    width:80%;
+    height:400px;
+    display:flex;
+    margin:auto;
+    margin-top:-300px !important;
+    flex-wrap: wrap;
+}
+.subjects-container .subject{
+    width:16%;
+    height:200px;
+    background-color:#fff;
+    text-align:center;
+    padding-top:80px;
+}
+.subjects-container .span-1{
+    background-color: lightskyblue;
+}
+.subjects-container .span-2{
+    background-color:yellowgreen ;
+}
+.subjects-container .span-3{
+    background-color: red;
+}
+.subjects-container .span-4{
+    background-color: teal;
+}
+.subjects-container .span-5{
+    background-color: purple;
+}
+.subjects-container .span-6{
+    background-color: green;
 }

@@ -344,6 +344,7 @@ section{
 }
 .subjects-container .subject img{
     margin:auto;
+    margin-top:-25px;
     width:75px;
     height:75px;
     transition:2s smooth;

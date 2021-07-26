@@ -464,3 +464,20 @@ section{
 .meet-container .bg-img{
     background-image:url(https://source.unsplash.com/1000x1000/?shelf)
 }
+.meet-container .bg-img-1{
+    background-image:url(https://source.unsplash.com/1000x1000/?book)
+}
+.meet-container .bg-img-2{
+    background-image:url(https://source.unsplash.com/1000x1000/?school)
+}
+.blind-container{
+    width:100%;
+    height:auto;
+    display:flex;
+    flex-wrap:wrap;
+}
+.blind-container .blind-sec{
+    width:25%;
+    height:300px;
+    border:1px solid red;
+}

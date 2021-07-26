@@ -154,15 +154,20 @@ section{
 }
 .col-container .st{
     background-color:rgb(6, 1, 82);
-    color:yellow;
+    color:#fff;
+    font-size:1.1em;
+    font-weight:bolder;
 }
 .col-container .nd{
     background-color:yellow;
     color:rgb(6, 1, 82);
+    font-weight:bolder;
 }
 .col-container .rd{
     background-color:rgb(6, 1, 82);
-    color:yellow;
+    color:#fff;
+    font-size:1.1em;
+    font-weight:bolder;
 }
 .col-container .col{
     width:33%;

@@ -152,6 +152,9 @@ section{
     margin-right:15%;
     margin-top:-100px;
 }
+.col-container h4{
+    font-size:1.4em;
+}
 .col-container .st{
     background-color:rgb(6, 1, 82);
     color:#fff;
@@ -502,4 +505,28 @@ section{
     height:100%;
     padding:15%;
     line-height:35px;
+}
+.swap-container{
+    width:100%;
+    padding:100px;
+    padding-bottom:0;
+    height: 80vh;
+    display:flex;
+    margin-bottom:50px;
+}
+.swap-container .swap-img-container,.swap-text-container{
+    width:50%;
+    height:100%;
+    padding:50px;
+}
+.swap-container .swap-img-container .img-contain{
+    width:50%;
+    height:70%;
+    background-color:yellow;
+}
+.swap-container .swap-img-container .img-contain img{
+    width:110%;
+    height:120%;
+    margin-top:80px;
+    margin-left:80px;
 }

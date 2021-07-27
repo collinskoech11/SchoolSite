@@ -523,10 +523,19 @@ section{
     width:50%;
     height:70%;
     background-color:yellow;
+    margin-left:150px;
 }
 .swap-container .swap-img-container .img-contain img{
     width:110%;
     height:120%;
     margin-top:80px;
     margin-left:80px;
+}
+.swap-container .swap-text-container{
+    padding:100px;
+
+}
+.swap-container .swap-text-container h1{
+    font-size:3em;
+    padding-bottom:50px;
 }

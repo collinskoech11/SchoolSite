@@ -539,3 +539,18 @@ section{
     font-size:3em;
     padding-bottom:50px;
 }
+
+.footer-container{
+    width:100%;
+    display:flex;
+    padding:150px;
+    height:auto;
+    background-color:rgb(6, 1, 82,0.5)
+}
+.footer-container .footer-section{
+    width:30%;
+    height:300px;
+    margin-left:1.5%;
+    margin-right:1.5%;
+    border:1px solid red;
+}

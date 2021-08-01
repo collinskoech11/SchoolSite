@@ -552,5 +552,9 @@ section{
     height:300px;
     margin-left:1.5%;
     margin-right:1.5%;
-    border:1px solid red;
+    color:#fff;
+    padding:50px;
+}
+.footer-container .footer-section h3{
+    padding-bottom:30px;
 }

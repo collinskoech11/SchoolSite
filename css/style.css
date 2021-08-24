@@ -412,6 +412,7 @@ section{
     .main-motto-con{
         display:block;
         height:auto;
+        overflow-y:hidden;
     }
     .main-motto-con .main-img{
         width:100%;
@@ -437,6 +438,11 @@ section{
 }
 .teaching-container h4{
     font-size:1em;
+}
+@media screen and (max-width: 1200px){
+    .teaching-container{
+        height:100vh;
+    } 
 }
 .subjects-container{
     width:80%;
@@ -483,7 +489,15 @@ section{
 .subjects-container .span-6{
     background-color: green;
 }
-
+@media screen and (max-width: 1200px){
+    .subjects-container{
+        width:100%;
+        height:auto;
+    }
+    .subjects-container .subject{
+        width:50%;
+    }
+}
 .principles-container{
     display:flex;
     padding:70px;
@@ -535,6 +549,9 @@ section{
 }
 .principles-container .principles-main .principles-main-sub .sub-con h4{
     text-shadow: #fff 15px 0 10px;
+}
+@media screen and (max-width: 1200px){
+
 }
 .meet-container{
     width:100%;

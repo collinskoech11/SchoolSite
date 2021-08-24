@@ -60,6 +60,7 @@ section{
 .bg-container{
     background-image: url('https://source.unsplash.com/1400x1000/?school');
     height:92vh;
+    overflow-y:hidden;
     background-size: cover;
     width:100vw;
 }
@@ -201,7 +202,7 @@ section{
     display:flex;
     margin-left:15%;
     margin-right:15%;
-    margin-top:-100px;
+    overflow-y:hidden;
 }
 @media screen and (max-width:1200px){
     .col-container{
@@ -259,6 +260,7 @@ section{
 }
 .best-container{
     width:100%;
+    margin-top:100px;
     height:600px;
     padding: 100px;
     display:flex;
@@ -644,4 +646,3 @@ section{
     font-size:1.1em;
     padding-top:10px;
 }
-//

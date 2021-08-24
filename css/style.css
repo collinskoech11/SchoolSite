@@ -551,7 +551,22 @@ section{
     text-shadow: #fff 15px 0 10px;
 }
 @media screen and (max-width: 1200px){
-
+    .principles-container{
+        padding:30px;
+        padding-right: 30px;
+        height:auto;
+        overflow-y:hidden;
+        padding-bottom:50px;
+    }
+    .principles-container .principles-sub{
+        display:none;
+    }
+    .principles-container .principles-main{
+        width:100%;
+        margin-right: 0;
+        margin-top:0;
+        padding-bottom: 500px;
+    }
 }
 .meet-container{
     width:100%;

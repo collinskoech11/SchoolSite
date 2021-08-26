@@ -78,6 +78,12 @@ section{
     background-color: rgba(0,0,0, 0.6);
     color:#fff;
     display: flex;
+    transition:1s;
+}
+.fixed{
+    position:fixed;
+    top:0;
+    transition:1s;
 }
 .topnavhead .name{
     padding-top: 20px;
